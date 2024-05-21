@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e1dfdf;
+}
+
+#form-container {
+    background-color: #fff;
+    border-radius: 20px;
+    /* Sombreamento: horizontal, vertical, espalhamento, cor com opacidade */
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, .2);
+    margin: 25px auto;
+    padding: 25px;
+    width: 1000px;
+    line-height: 3.5;
+}
+
+#form-container h2 {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#form-container form {
+    padding-bottom: 50px;
+    width: 300px;
+}
+
+/* Reestilizando os inputs */
+
+#form-container .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+
+#form-container .form-control:focus {
+    box-shadow: none;
+}
