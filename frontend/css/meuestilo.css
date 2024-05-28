@@ -9,16 +9,16 @@ body {
 
 /* CORES DE FUNDO */
 .bg-cor-1 {
-    background-color: #FFE4E1;
+    background-color: #df9cb3;
 }
 
 .bg-cor-2 {
-    background-color: #FFF0F5;
+    background-color: #dfb3c3;
 }
 
 /* CORES PARA TEXTO */
 .cor-1 {
-    color: rgb(168, 176, 180);
+    color: rgb(116, 127, 133);
 }
 
 .cor-2 {
@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-brand:hover {
-    color: #b8b384;
+    color: #dfb3c3;
 }
 
 @media(min-width:768px) {
